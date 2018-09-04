@@ -1,0 +1,81 @@
+body{
+   background-image: url("yellowsplat.jpg");
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color:	#303030;
+    text-align: center;
+    background-color: #edd1eb;
+    background-size: cover;
+    
+}
+
+ul{ 
+    list-style-type: none; 
+}
+
+header  .hightlight {
+    color: 	red;
+    font-weight: bold;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+header{
+    /*background-image: url("splat.jpg");
+    background-color: #edd1eb;*/
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #696969;
+}
+header h1{
+    
+    float: center;
+    margin-top: 20px;
+}
+
+nav{
+    float: center;
+    margin-top: 10px;
+    
+}
+header li{
+  
+    display: inline;
+    margin: 75px;
+    font-size: 20px;
+    min-height: 300px;
+    
+}
+
+
+
+footer{
+       
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #696969;
+    
+}
+footer li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+@media (max-width: 770px) {
+    
+   
+        header h1, nav{
+            color: #EE00EE;
+            float: none;
+            text-align: center;
+            width: 100%;
+        
+    }
+}

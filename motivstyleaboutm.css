@@ -1,0 +1,101 @@
+body{
+   background-image: url("pinksplat.jpg");
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color:	#303030;
+    text-align: center;
+    background-color: #edd1eb;
+    background-size: cover;
+    
+}
+
+/*#sidebar {
+    float: left;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-right: 20px
+    
+}
+*/
+
+/*.dark {
+    padding: 15px;
+    background: #696969;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+*/
+ul{ 
+    list-style-type: none; 
+}
+
+header ul{
+    margin: 0px;
+    padding:0px;
+    
+}
+
+nav{
+    float: center;
+    margin-top: 50px;
+    
+}
+
+header li{
+  
+    display: inline;
+    margin: 75px;
+    font-size: 20px;
+    min-height: 200px;
+    
+}
+
+header h1{
+    
+    float: center;
+    margin-top: 20px;
+}
+
+
+header h2{
+    margin-top: 40px;
+    float: left;
+    margin-top: 20px;
+}
+
+header{
+       
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #A9A9A9;
+}
+
+footer{
+       
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #A9A9A9;
+}
+footer li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+@media (max-width: 770px) {
+    
+   
+        header h1, nav{
+            color: 	maroon;
+            float: none;
+            text-align: center;
+            width: 100%;
+        
+    }
+}

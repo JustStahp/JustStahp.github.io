@@ -1,0 +1,105 @@
+body{
+   background-image: url("greensplat.jpg");
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color:	#303030;
+    text-align: center;
+    background-color: #edd1eb;
+    background-size: cover;
+    
+}
+
+ul{ 
+    list-style-type: none; 
+}
+
+header  .hightlight {
+    color: 	red;
+    font-weight: bold;
+    
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+header{
+    /*background-image: url("splat.jpg");
+    background-color: #edd1eb;*/
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #696969;
+    font-family: Impact;
+}
+header h1{
+    font-family: Impact;
+    float: center;
+    margin-top: 20px;
+}
+
+nav{
+    float: center;
+    margin-top: 10px;
+    
+}
+header li{
+  
+    display: inline;
+    margin: 75px;
+    font-size: 20px;
+    min-height: 300px;
+    
+}
+
+.dark {
+    padding: 15px;
+    background: #696969;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+footer{
+       
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #696969;
+    
+}
+footer li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+@media (max-width: 770px) {
+    
+   
+        header h1, nav{
+            color: #228B22;
+            float: none;
+            text-align: center;
+            width: 100%;
+        
+    }
+}
+a:hover {
+  color: blue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+A:active { 
+    COLOR: orange; TEXT-DECORATION: none
+}
+A:visited {
+    COLOR: purple; TEXT-DECORATION: none; font-weight: normal 
+    
+}
