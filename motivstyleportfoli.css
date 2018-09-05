@@ -1,6 +1,6 @@
 body{
    background-image: url("yellowsplat.jpg");
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 2;
     color:	#303030;
@@ -78,4 +78,30 @@ footer li{
             width: 100%;
         
     }
+}
+a:link {
+  text-decoration: none;
+}
+ 
+A:visited {
+    COLOR: #DC143C; TEXT-DECORATION: none; font-weight: normal 
+    
+}
+
+a:hover {
+    color: white;
+}
+a.selected {
+  color: black
+}
+a.current {
+  color:white;
+}
+header{
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #A9A9A9;
+    font-family: Impact;
 }

@@ -1,5 +1,86 @@
+/*body{
+   background-image: url("pinksplat.jpg");
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color:	#303030;
+    text-align: center;
+    background-color: #edd1eb;
+    background-size: cover;
+    
+}
+
+ul{ 
+    list-style-type: none; 
+}
+
+header  .hightlight {
+    color: 	red;
+    font-weight: bold;
+    
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+header{
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: px;
+    border-right-width: 3px;
+    border-color: #A9A9A9;
+    font-family: Impact;
+}
+header h1{
+    font-family: Impact;
+    float: center;
+    margin-top: 20px;
+}
+
+nav{
+    float: center;
+    margin-top: 50px;
+    
+}
+header li{
+  
+    display: inline;
+    margin: 75px;
+    font-size: 20px;
+    min-height: 200px;
+    color: purple;
+}
+
+footer{
+       
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #A9A9A9;
+}
+footer li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+@media (max-width: 770px) {
+    
+   
+        header h1, nav{
+            color: 	#800000;
+            float: none;
+            text-align: center;
+            width: 100%;
+        
+    }
+}
+*/
+
+
+
 body{
-   background-image: url("purpsplat.jpg");
+   background-image: url("pinksplat.jpg");
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 2;
@@ -109,12 +190,12 @@ a:link {
 }
  
 A:visited {
-    COLOR: orange; TEXT-DECORATION: none; font-weight: normal 
+    COLOR: #900C3F; TEXT-DECORATION: none; font-weight: normal 
     
 }
 
 a:hover {
-    color: #E72979;
+    color: orange;
 }
 a.selected {
   color: black
@@ -122,3 +203,7 @@ a.selected {
 a.current {
   color:white;
 }
+
+
+
+

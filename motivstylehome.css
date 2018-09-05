@@ -3,7 +3,7 @@ body{
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 2;
-    color:	#303030;
+    color: #303030;
     text-align: center;
     background-color: #edd1eb;
     background-size: cover;
@@ -24,8 +24,6 @@ header  .hightlight {
     margin: auto;
 }
 header{
-    /*background-image: url("splat.jpg");
-    background-color: #edd1eb;*/
     border-style: dashed;
     border-width: 3px;
     border-left-width: 3px;
@@ -50,9 +48,8 @@ header li{
     margin: 75px;
     font-size: 20px;
     min-height: 300px;
-    
+    color: purple;
 }
-
 .dark {
     padding: 15px;
     background: #696969;
@@ -61,7 +58,6 @@ header li{
     margin-bottom: 10px;
 
 }
-
 footer{
        
     border-style: dashed;
@@ -69,7 +65,6 @@ footer{
     border-left-width: 3px;
     border-right-width: 3px;
     border-color: #696969;
-    
 }
 footer li{
     display: inline;
@@ -88,18 +83,22 @@ footer li{
         
     }
 }
-a:hover {
-  color: blue;
-}
 
 a:link {
   text-decoration: none;
 }
-
-A:active { 
-    COLOR: orange; TEXT-DECORATION: none
-}
+ 
 A:visited {
-    COLOR: purple; TEXT-DECORATION: none; font-weight: normal 
+    COLOR: blue; TEXT-DECORATION: none; font-weight: normal 
     
+}
+
+a:hover {
+    color: purple;
+}
+a.selected {
+  color: black
+}
+a.current {
+  color:white;
 }
