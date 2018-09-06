@@ -102,3 +102,7 @@ a.selected {
 a.current {
   color:white;
 }
+.highlight{
+    color: purple;
+    font-weight: bold;
+}

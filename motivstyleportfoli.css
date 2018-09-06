@@ -13,9 +13,8 @@ body{
 ul{ 
     list-style-type: none; 
 }
-
-header  .hightlight {
-    color: 	red;
+.highlight {
+    color: 	green;
     font-weight: bold;
 }
 .container{
@@ -89,7 +88,7 @@ A:visited {
 }
 
 a:hover {
-    color: white;
+    color: green;
 }
 a.selected {
   color: black
@@ -104,4 +103,10 @@ header{
     border-right-width: 3px;
     border-color: #A9A9A9;
     font-family: Impact;
+}
+
+.highlight {
+        color: 	green;
+    font-weight: bold;
+    
 }

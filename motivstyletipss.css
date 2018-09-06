@@ -14,7 +14,7 @@ ul{
     list-style-type: none; 
 }
 
-header  .hightlight {
+header  .highlight {
     color: 	red;
     font-weight: bold;
     
@@ -51,7 +51,7 @@ header li{
     color: purple;
 }
 .dark {
-    padding: 15px;
+    padding: 5px;
     background: #696969;
     color: white;
     margin-top: 10px;
@@ -99,7 +99,7 @@ header li{
     float: right;
     width: 30%;
     margin-bottom: 40px;
-    margin-right: 20px
+    margin-right: 20px;
     
 }
 
@@ -109,7 +109,7 @@ a:link {
 }
  
 A:visited {
-    COLOR: orange; TEXT-DECORATION: none; font-weight: normal 
+    COLOR: red; TEXT-DECORATION: none; font-weight: normal 
     
 }
 
