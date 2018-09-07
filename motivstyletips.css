@@ -1,9 +1,9 @@
 body{
-   background-image: url("greensplat.jpg");
+   background-image: url("purpsplat.jpg");
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 2;
-    color: #303030;
+    color:	#303030;
     text-align: center;
     background-color: #edd1eb;
     background-size: cover;
@@ -14,8 +14,8 @@ ul{
     list-style-type: none; 
 }
 
-header  .hightlight {
-    color: 	red;
+header  .highlight {
+   color: #E72979;
     font-weight: bold;
     
 }
@@ -28,7 +28,7 @@ header{
     border-width: 3px;
     border-left-width: 3px;
     border-right-width: 3px;
-    border-color: #696969;
+    border-color: #A9A9A9;
     font-family: Impact;
 }
 header h1{
@@ -47,16 +47,16 @@ header li{
     display: inline;
     margin: 75px;
     font-size: 20px;
-    min-height: 300px;
+    min-height: 200px;
     color: purple;
 }
 .dark {
-    padding: 15px;
+    padding: 5px;
     background: #696969;
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
-
+    
 }
 footer{
        
@@ -64,7 +64,7 @@ footer{
     border-width: 3px;
     border-left-width: 3px;
     border-right-width: 3px;
-    border-color: #696969;
+    border-color: #A9A9A9;
 }
 footer li{
     display: inline;
@@ -76,7 +76,7 @@ footer li{
     
    
         header h1, nav{
-            color: #228B22;
+            color: purple;
             float: none;
             text-align: center;
             width: 100%;
@@ -84,25 +84,42 @@ footer li{
     }
 }
 
+
+header li{
+  
+    display: inline;
+    margin: 75px;
+    font-size: 20px;
+    min-height: 200px;
+    
+}
+
+#sidebar {
+    font-family: sans-serif;
+    float: right;
+    width: 30%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    
+}
+
+
 a:link {
   text-decoration: none;
+  color: red;
 }
  
 A:visited {
-    COLOR: blue; TEXT-DECORATION: none; font-weight: normal 
+    COLOR: red; TEXT-DECORATION: none; font-weight: normal 
     
 }
 
 a:hover {
-    color: purple;
+    color: #E72979;
 }
 a.selected {
   color: black
 }
 a.current {
   color:white;
-}
-.highlight{
-    color: purple;
-    font-weight: bold;
 }
