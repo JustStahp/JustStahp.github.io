@@ -15,7 +15,7 @@ ul{
 }
 
 header  .highlight {
-   color: #E72979;
+   color: orange;
     font-weight: bold;
     
 }
@@ -115,7 +115,7 @@ A:visited {
 }
 
 a:hover {
-    color: #E72979;
+    color: orange;
 }
 a.selected {
   color: black
