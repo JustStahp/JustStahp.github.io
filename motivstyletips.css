@@ -43,7 +43,6 @@ nav{
     
 }
 header li{
-  
     display: inline;
     margin: 75px;
     font-size: 20px;
@@ -72,17 +71,6 @@ footer li{
     
 }
 
-@media (max-width: 770px) {
-    
-   
-        header h1, nav{
-            color: purple;
-            float: none;
-            text-align: center;
-            width: 100%;
-        
-    }
-}
 
 
 header li{
@@ -116,10 +104,4 @@ A:visited {
 
 a:hover {
     color: orange;
-}
-a.selected {
-  color: black
-}
-a.current {
-  color:white;
 }
